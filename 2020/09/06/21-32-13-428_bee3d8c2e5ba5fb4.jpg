@@ -1,0 +1,1166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="typepad-standard" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<!-- head-common -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="http://www.typepad.com/" />
+	<meta name="keywords" content="security, web services, SOA" />
+	<meta name="description" content="Gunnar Peterson's loosely coupled thoughts on distributed systems, security, and software that runs on them." />
+    <link rel="canonical" href="https://1raindrop.typepad.com/1_raindrop/" />
+
+
+
+        <link rel="stylesheet" href="https://1raindrop.typepad.com/1_raindrop/styles.css?v=6" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://static.typepad.com/.shared/themes/common/print.css" type="text/css" media="print" />
+
+<link rel="stylesheet" href="https://static.typepad.com/.shared/css/featherlight-gallery.css">
+
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<link rel="alternate" type="application/atom+xml" title="Posts on '1 Raindrop' (Atom)" href="https://1raindrop.typepad.com/1_raindrop/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on '1 Raindrop' (RSS 1.0)" href="https://1raindrop.typepad.com/1_raindrop/index.rdf" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on '1 Raindrop' (RSS 2.0)" href="https://1raindrop.typepad.com/1_raindrop/rss.xml" />
+	<script type="text/javascript">
+		var TPApp = {};
+		TPApp.app_uri = "https://www.typepad.com/";
+	</script>
+	<script type="text/javascript" src="https://static.typepad.com/.shared/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d83451c75869e200d83451c75d69e2');
+ga('Typepad.set', 'dimension2', 'index');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+<meta property="og:title" content="1 Raindrop" />
+<meta property="og:site_name" content="1 Raindrop" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="https://1raindrop.typepad.com/1_raindrop/" />
+<meta property="og:description" content="Gunnar Peterson's loosely coupled thoughts on distributed systems, security, and software that runs on them." />
+<meta property="fb:admins" content="" />
+<meta property="og:image" content="https://up0.typepad.com/6a00d83451c75869e2010536f1f541970b-220si" />
+
+
+
+	<title>1 Raindrop</title>
+	<link rel="openid.server" href="https://www.typepad.com/services/openid/server" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.typepad.com/services/rsd/6a00d83451c75869e200d83451c75d69e2" />
+			<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://1raindrop.typepad.com/foaf.rdf" />
+	
+        
+</head>
+
+
+
+<body class="layout-three-column index">
+	
+	<div id="container">
+		<div id="container-inner" class="pkg">
+			
+
+
+<a id="home"></a>
+   
+
+<!-- banner -->
+<div id="banner">
+	<div id="banner-inner" class="pkg">
+		
+		<h1 id="banner-header"><a href="https://1raindrop.typepad.com/1_raindrop/" accesskey="1">1 Raindrop</a></h1>
+		<h2 id="banner-description">
+			Gunnar Peterson's loosely coupled thoughts on distributed systems, security, and software that runs on them.
+		</h2>
+	</div>
+</div>
+
+
+
+
+
+
+			<div id="pagebody">
+				<div id="pagebody-inner" class="pkg">
+					<div id="alpha">
+						<div id="alpha-inner" class="pkg">
+							<!-- sidebar1 -->
+
+
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-champions-guide-to-web-application-security.html">Security Champions Guide to Web Application Security</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-140-conversation-with-pamela-dingle-on-identity.html">Security > 140 Conversation with Pamela Dingle on Identity</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/11/6-things-i-learned-from-robert-garigue.html">6 Things I Learned from Robert Garigue</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/the-curious-case-of-api-security.html">The Curious Case of API Security</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-capability-engineering-.html">Security Capability Engineering </a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/ought-implies-can.html">Ought implies can</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-140-chat-with-t-rob-wyatt-on-mq-and-middleware-security.html">Security > 140 Chat with T. Rob Wyatt on MQ and Middleware Security</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/privilege-user-management-bubble.html">Privilege User Management Bubble?</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/09/the-part-where-security-products-solve-the-problem.html">The part where security products solve the problem</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/08/four-factors-to-give-you-a-fighting-chance.html">Four Often Overlooked Factors to Give Your Security Team a Fighting Chance</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+<!-- list_inlcude.tt  -->
+<div id="blogroll" class="module-typelist module">
+<h2 class="module-header">Blogroll</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="http://www.addsimplicity.com/" >Adding Simplicity - An Engineering Mantra</a></li>
+							<li class="module-list-item"><a title="" href="https://eternaloptimist.wordpress.com/">Adventures of an Eternal Optimist</a></li>
+							<li class="module-list-item"><a title="" href="https://securityretentive.blogspot.com/">Andy Steingruebl</a></li>
+							<li class="module-list-item"><a title="" href="https://soacloudsecurityblog.wordpress.com/">Andy Thurai</a></li>
+							<li class="module-list-item"><a title="" href="https://chuvakin.blogspot.com/">Anton Chuvakin</a></li>
+							<li class="module-list-item"><a title="" href="https://blog.wired.com/sterling/">Beyond the Beyond</a></li>
+							<li class="module-list-item"><a title="" href="http://greebo.net/" >cat slave diary</a></li>
+							<li class="module-list-item"><a title="" href="https://notabob.blogspot.com/">Ceci n'est pas un Bob</a></li>
+							<li class="module-list-item"><a title="" href="https://connectid.blogspot.com/index.html">ConnectID</a></li>
+							<li class="module-list-item"><a title="" href="http://www.cryptosmith.com" >Cryptosmith</a></li>
+							<li class="module-list-item"><a title="" href="http://www.emergentchaos.com/" >Emergent Chaos: Musings from Adam Shostack on security, privacy, and economics</a></li>
+							<li class="module-list-item"><a title="" href="http://www.enterpriseintegrationpatterns.com/ramblings.html" >Enterprise Integration Patterns: Gregor's Ramblings</a></li>
+							<li class="module-list-item"><a title="" href="https://financialcryptography.com/" >Financial Cryptography</a></li>
+							<li class="module-list-item"><a title="" href="http://www.monkey.org/~jose/secblogs.html" >infosec daily: blogs</a></li>
+							<li class="module-list-item"><a title="" href="http://blog.uncommonsensesecurity.com" >Jack Daniel</a></li>
+							<li class="module-list-item"><a title="" href="https://jkobielus.blogspot.com/">James Kobielus</a></li>
+							<li class="module-list-item"><a title="" href="https://duckdown.blogspot.com">James McGovern</a></li>
+							<li class="module-list-item"><a title="" href="http://edgeperspectives.typepad.com/edge_perspectives/" >John Hagel</a></li>
+							<li class="module-list-item"><a title="" href="http://cigital.com/justiceleague/" >Justice League [Cigital]</a></li>
+							<li class="module-list-item"><a title="" href="http://www.identityblog.com/" >Kim Cameron's Identity Weblog</a></li>
+							<li class="module-list-item"><a title="" href="http://krypted.com/" >Krypted - Charles Edge's Notes from the Field</a></li>
+							<li class="module-list-item"><a title="" href="http://blog.zeltser.com" >Lenny Zeltser</a></li>
+							<li class="module-list-item"><a title="" href="https://www.lightbluetouchpaper.org/">Light Blue Touchpaper</a></li>
+							<li class="module-list-item"><a title="" href="https://xmlnetworking.blogspot.com/">Mark O'Neill</a></li>
+							<li class="module-list-item"><a title="" href="http://blog.fortify.com/blog/fortify/" >Off by On</a></li>
+							<li class="module-list-item"><a title="" href="https://www.tbray.org/ongoing/">ongoing</a></li>
+							<li class="module-list-item"><a title="" href="http://blog.pingidentity.com/blog/ctotalk/" >Patrick Harding</a></li>
+							<li class="module-list-item"><a title="" href="http://riskman.typepad.com/perilocity/" >Perilocity</a></li>
+							<li class="module-list-item"><a title="" href="http://www.xmlgrrl.com/blog/" >Pushing String</a></li>
+							<li class="module-list-item"><a title="" href="http://www.rationalsurvivability.com/blog" >Rational Survivability</a></li>
+							<li class="module-list-item"><a title="" href="http://rdist.root.org/" >rdist: setuid just for you</a></li>
+							<li class="module-list-item"><a title="" href="http://redmonk.com" >RedMonk</a></li>
+							<li class="module-list-item"><a title="" href="http://riskmanagementinsight.com/riskanalysis/" >RiskAnalys.is</a></li>
+							<li class="module-list-item"><a title="" href="http://www.rudyrucker.com/blog/index.php" >Rudy Rucker</a></li>
+							<li class="module-list-item"><a title="" href="https://softwareforallseasons.blogspot.com/">Software For All Seasons</a></li>
+							<li class="module-list-item"><a title="" href="http://spiresecurity.typepad.com" >Spire Security Viewpoint</a></li>
+							<li class="module-list-item"><a title="" href="https://taosecurity.blogspot.com/">TaoSecurity</a></li>
+							<li class="module-list-item"><a title="" href="http://newschoolsecurity.com/" >The New School of Information Security</a></li>
+							<li class="module-list-item"><a title="" href="http://www.windley.com/" >Windley's Technometria</a></li>
+							<li class="module-list-item"><a title="" href="http://zenpundit.com" >zenpundit</a></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- powered by -->
+<div class="module-powered module">
+        <div class="module-content">
+
+                <a href="https://www.typepad.com/" title="Blog">Blog</a> powered by <a href="https://www.typepad.com/" title="TypePad">Typepad</a>
+
+        </div>
+</div>
+
+
+
+						</div>
+					</div>
+					<div id="beta">
+						<div id="beta-inner" class="pkg">
+							
+
+
+
+
+
+<!-- CAROUSEL POSTS -->
+
+
+<!-- entry list sticky -->
+
+
+<!-- REGULAR POSTS -->
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201b8d177d1ff970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-champions-guide-to-web-application-security.html">Security Champions Guide to Web Application Security</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>I have a new eBook available at Akamai, its called <a href="https://content.akamai.com/PG3682-Web-Application-Security-eBook.html" target="_self">Security Champions Guide to Web Application Security</a>. Why Security Champion? Well, AppSec is an area that often falls betwixt and between different groups, it blurs traditional lines. Basically it comes down to who cares enough to dig and try to solve the company&#39;s WebApp security problems, they may come from Dev team or Security team or Network team or any number of places. There is usually not a role called security champion, but there is a need for someone to champion the cause of WebAppSec to craft the security plan, to get designs right, to implement the code, and to deploy. To do all of this is a broad mix of skills.</p>
+<p>The book is broken down into the following chapters-</p>
+<p>Chapter 1. &#0160;Behavioral Perimeter - explores how the traditional structural perimeter needs to factor in a behavioral component, to deliver security where its needed</p>
+<p>Chapter 2 Security at Scale - simply put scale is tablestakes. If your security doesn&#39;t scale then you do not even get invited to the party</p>
+<p>Chapter 3 Intelligent Security - security cannot just be passive and static, co-evolution is required now.</p>
+<p>Chapter 4 Integration - an effective boundary requires thinking through From-To Integration layers at both Tech and Process integration level</p>
+<p>Chapter 5 SecDevOps - security test instrumentation</p>
+<p>Chapter 6 Security Architecture Process - fostering a living, breathing boundary</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">November 17, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-champions-guide-to-web-application-security.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-champions-guide-to-web-application-security.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+	<div class="entry-category-security_140 entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201b7c7eafe09970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-140-conversation-with-pamela-dingle-on-identity.html">Security > 140 Conversation with Pamela Dingle on Identity</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p><a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201bb088f2727970d-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="float: left;"><img alt="Pd" class="asset  asset-image at-xid-6a00d83451c75869e201bb088f2727970d img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201bb088f2727970d-120wi" style="margin: 0px 5px 5px 0px;" title="Pd" /></a>For this <a href="https://1raindrop.typepad.com/1_raindrop/security-140/" target="_self">Security &gt; 140</a>, I discuss identity with <a href="http://eternallyoptimistic.com" target="_self">Pam Dingle</a>&#0160;(<a href="https://twitter.com/pamelarosiedee" target="_self">@pamelarosiedee</a>). Pam is <a href="https://www.pingidentity.com/en/blog.html?author=22" target="_self">Principal Technical Architect at Ping Identity</a>, a veteran of building, innovating and riding the many waves of the identity ecosystem. We discuss an appropriately wide range of topics from how developers should approach identity to unempowered frogs:</p>
+<p><span style="color: #407f00;">Gunnar Peterson:</span><br /><span style="color: #407f00;">Consultants always talk about people, process and technology. However there is an old consulting truism - its never a process problem, its never a tech problem Its always a people problem. So when I go to a security conference and I talk about SAML or OAuth, I frequently get the thousand yard stare, and when I go to an Identity conference and talk about CSRF or DOR I also get blank looks. Thinking back, there are very smart and capable people at these conferences, and yet, in the main, the security people know little about identity and vice versa, It struck me that I do not even see the same people from one place to the next, about the only people I see at both types of conferences are Bob Blakley and you. These two domains, identity and security, are totally intertwined - so how do we get better cross-pollination?</span></p>
+<p>Pam Dingle: <br />I see a number of things we can do to get that cross-pollination going. I think proximity breeds curiosity, and the best thing that can happen is for conferences to start creating cross-discipline tracks. A lot of professionals have limited travel budgets - so it needs to be possible for identity folks to be introduced to security concepts (and vice versa) without the barrier of cost. I also think that there are some interesting thought experiments that we could curate to merge what often feels like extremely separate paradigms. CSRF is in fact a really good example, because it has a direct bearing on the identity world (receiving a form submission and making assumptions about where it came from is not materially different from receiving an authentication or authorization response and making assumptions about where it came from). Putting security concepts into identity framing and vice versa could be a good way to start to entice people into common conversations, pulling us each out of our respective echo chambers.</p>
+<p><span style="color: #407f00;">GP:</span><br /><span style="color: #407f00;">It seems like companies’ approaches to mobile identity really cover a wide range. For better and worse, there is not a lot of consistency with how people try to solve mobile identity. You see all manner or different home grown solutions and a hodge podge of different standards (password, certs, SAML, FIDO, OAuth, MDM). Are there different challenges driving people to different architectures? Or is this just normal early days of a new technology?</span></p>
+<p>PD:<br />A hodge podge is exactly the right way to characterize it. The use cases are distinct and sometimes only tangentially related, and yet somehow they all still fall under this useless umbrella classification of &quot;mobile identity&quot;. I would say that the three most common mobile challenges we see today in Enterprises are: 1) How to secure native mobile applications that rely on REST APIs without caching user credentials on the device, 2) How to use the unique location, hardware, and proximity of a device to a user to enrich the security of an authentication ceremony, and 3) Is the device involved in either Challenge #1 or Challenge #2 a known and/or trusted and/or uncompromised device?</p>
+<p>Standards like OAuth and OpenID Connect are primarily centered on challenge #1. Standards like FIDO are centered on challenge #2, and can play a fascinating role in combining device-local authenticators with central systems in a standardized way. Product sets like MDM and EMM are centered on challenge #3. Passwords and certs could be part of the implementation of any of those challenges, although the question of securing a private key or other secret on a mobile device tends to push back into challenge #3 territory.</p>
+<p>I do think this is early days for mobile identity, and I have to say, it&#39;s fascinating to watch the space evolve. If you are developing consumer-facing mobile apps for example, your risk assessment is radically different than an Enterprise use case - you don&#39;t necessarily have the luxury that many Enterprises have, of refusing to run on a poorly secured device. As such, the last thing you might choose to do is put a big heavy trusted credential like a private key or a password on the device. Your best bet there might be to create a lightweight, short-lived, very tightly scoped token there, so that the attacker you assume is living on the device with your app can only steal limited stuff for a little while. Compare that to the way Enterprises think of devices, where they want to *believe* that their corporate devices are trustworthy, and are willing to pay for the promise of a safe space, so that they can build a solid foundation for a chain of trust. Is it real? Well that takes us back to identity-security cross-pollination...</p>
+<p><span style="color: #407f00;">GP:</span><br /><span style="color: #407f00;">For a long time, “identity” has been a grand topic with many facets and edge cases, but once you reduce it to implementation it ends up primarily being about SSO and Provisioning, with a side of MFA. What are you seeing in terms of new use cases that will drive identity going forward on the different platforms in play today? Is it pushing towards stronger auth, more attribute granularity, portability, bidirectional communications? What do you see as the next killer use cases for identity?</span></p>
+<p>PD:<br />I think we&#39;re already neck deep in the next killer use case for identity, and the most critical thing we have to do is to realize it. In my opinion the next killer use case is not (as you might think) granting consent, but un-granting it.</p>
+<p>The problem we&#39;ve always had with delegation &amp; consent is that the consequences of giving consent are rarely clear. We balance our desire for a thing we want right now in the moment, against a hazy set of possible future outcomes, and most of us choose the instant gratification, even those of us who are suspicious or afraid - because there are almost no alternatives. We are accustomed to granting things -- and the services we use are accustomed to asking for anything they want, but there is a tipping point coming. Our own devices have been consumerized, and the line between security and surveillance on those devices is blurring. Part of it is for our own good, and we SHOULD be allowing it. The rest is dangerous and exploitative. If, with SAML and OpenID Connect, we have a layer of plumbing that could become the lingua franca of identity and access, then we could now have a solid basis upon which to specify policy. And those policies don&#39;t have to only belong to corporations.</p>
+<p>In case you think I&#39;ve got a terminal case of &quot;the world should be a better place&quot;, no, I don&#39;t think this type of thing will come about by general consensus. Somebody will build a thing people want, and will give them innovative tools to intuitively start and stop the flow of identity data, device context, and other identifying information. When that innovation happens, I believe the response will be enormous. If that doesn&#39;t happen, we&#39;ll continue as a population of uncomfortable yet unempowered frogs, turning up the water in our own saucepan.</p>
+<p><span style="color: #407f00;">GP:</span><br /><span style="color: #407f00;">So the inverse of SSO is Selective Service Revocation, then, interesting. Ok, for traditional identity protocols like SAML, OpenID Connect, OAuth, and so on, you’ve been working with these for awhile, since the beginning basically. When you work with developers on integrating these protocols into applications, what are a couple of things you wish you knew at the beginning that you know now on things to do or avoid on implementation and integration?</span></p>
+<p>PD:<br />For me, the #1 hard-won life lesson is: fear the hello world identity integration. You know, that thing that you make as a developer where you just get the thing working in the simplest case, and THEN you&#39;ll go back and make it compliant, check your inputs, and so on. Except sometimes you never get back to it, and you end up with something that seems like it works but is in fact exceptionally dangerous, because the true measure of a successful integration should be what it rejects, not what it accepts. Mitigation of risk around hello world identity integrations should be a built-in part of any running identity deployment, but when every integration is bespoke, the cost is tough to swallow: this is why I&#39;m such a huge fan of OpenID Connect. As a &#39;last mile&#39; integration strategy for applications, OpenID Connect allows non-experts in identity to easily create integrations, but more importantly, if you use OpenID Connect you can also run conformance tests built by the community. The OpenID Foundation has invested in official, public conformance tests for productized software, but they have also made the conformance software available as open source for use in private testing scenarios. This combination of &quot;easy to write a hello world integration&quot; and &quot;easy to make sure the hello world integration never goes into production&quot; must be the industry&#39;s standard for the future, if we want adoption and security to go hand in hand.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">November 11, 2015 in <a href="https://1raindrop.typepad.com/1_raindrop/security-140/">Security > 140</a> </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-140-conversation-with-pamela-dingle-on-identity.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/11/security-140-conversation-with-pamela-dingle-on-identity.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201b8d170c7a7970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/11/6-things-i-learned-from-robert-garigue.html">6 Things I Learned from Robert Garigue</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p><a href="https://1raindrop.typepad.com/1_raindrop/2007/02/thinking_about_.html" target="_self">Robert Garigue</a> was the <a href="https://1raindrop.typepad.com/1_raindrop/2013/08/revisiting-garigues-cso-role-models.html" target="_self">CISO</a> of Bell Canada and Bank of Montreal. I only met him and heard him speak once, and that was over a decade ago, but I learned a tremendous amount from him. Garigue&#39;s insights continue to resonate, and its an impressive accomplishment, because back then Infosec simply did not have the traction that it does today, yet he could see where things were moving and better still had great ideas on how to organize security practices to deal with unfolding events.</p>
+<p>Here are some of the main things I learned from him.</p>
+<p><strong>Finding a way to be effective</strong></p>
+<p>Garigue talked about the two most prevalent CISO models - the good cop (jester) and the bad cop. The jester CISO</p>
+<blockquote>
+<p><em>Sees a lot</em></p>
+<p><em>Can tell the king he has no clothes</em></p>
+<p><em>Can tell the king he really is ugly</em></p>
+<p><em>Does not get killed by the king</em></p>
+<p><em>Nice to have around but…how much security improvement comes from this ?</em>&#0160;</p>
+</blockquote>
+<p>The jester has happy customers! At least for awhile.</p>
+<p>&#0160;We have all seen bad cop CISOs who</p>
+<blockquote>
+<p><em>Changes happened faster that he was able to move</em></p>
+<p><em>Did not read the signs</em></p>
+<p><em>Good intentions went unfulfilled</em></p>
+<p><em>A brutal way to ending a promising career</em></p>
+<p><em>Sad to have around but…how much security improvement comes from this ?</em></p>
+</blockquote>
+<p>Obviously these models of CISOs are not solving our information security problems. Instead Dr. Garigue points us to Charlemagne as a better model</p>
+<blockquote>
+<p><em>King of the Franks and Holy Roman Emperor; conqueror of the Lombards and Saxons (742-814) - reunited much of Europe after the Dark Ages.</em></p>
+<p><em>He set up other schools, opening them to peasant boys as well as nobles. Charlemagne never stopped studying. He brought an English monk, Alcuin, and other scholars to his court - encouraging the development of a standard script.</em></p>
+<p><em>He set up money standards to encourage commerce, tried to build a Rhine-Danube canal, and urged better farming methods. He especially worked to spread education and Christianity in every class of people.</em></p>
+<p><em>He relied on Counts, Margraves and Missi Domini to help him.</em></p>
+<p><em>Margraves - Guard the frontier districts of the empire. Margraves retained, within their own jurisdictions, the authority of dukes in the feudal arm of the empire.</em></p>
+<p><em>Missi Domini - Messengers of the King.</em></p>
+</blockquote>
+<p>This is the way forward! Find and grow security champions in the dev, test, architecture and development groups,help them understand the real security issues. They will find solutions you have not thought of. Same for DBAs, same for business analysts even. Better still, these people will know ways to integrate security into the architecture, and security is <a href="https://1raindrop.typepad.com/1_raindrop/2013/11/there-are-no-security-problems.html" target="_self">all about integration</a>. Its all about beating the bushes, education, and decentralizing security services.</p>
+<p><strong>Decentralization</strong></p>
+<p>Back in 2004, security did not have the mandate it has today. It was mostly losing 9 of 10 battles. For the one security did win the most common response was to centralize security services and delivery. In practice, this meant cramming together on service after another into a network DMZ and assuming this Helm&#39;s Deep approach would somehow help hold Rohan and Middle Earth together. Never mind, that Helm&#39;s Deep was supposed to the last resort for the final stand, not the first and only option. Anyway, Garigue saw early on that centralization was not going to scale, and more to the point did not map to how business or technology actually works. Instead, security must establish ways to <a href="https://1raindrop.typepad.com/1_raindrop/2015/02/the-year-the-security-dog-caught-the-car.html" target="_self">decentralize security services</a>. In Garigue&#39;s thinking, the goal is to find the &quot;locus of control&quot; which could be policy (rules), infostructure (content) and/or infrastructure (technology).</p>
+<p><strong>Importance of application, data, and identity in security</strong></p>
+<p>When I met Robert Garigue in 2004, the identity and AppSec world was very small, I think you could fit everyone in the space in a mid size suburban Starbucks. Garigue was way out in front in recognizing that information security was a not a separate discipline rather its organization should be &quot;the result of the knowledge transfer process.&quot;</p>
+<p><strong> <a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d170e5c2970c-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="display: inline;"><img alt="Knowledge" class="asset  asset-image at-xid-6a00d83451c75869e201b8d170e5c2970c img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d170e5c2970c-320wi" title="Knowledge" /></a><br /></strong></p>
+<p>And so really our job is not just to move along the curve above, its to map and deliver those security services to knowledge networks.</p>
+<p><a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d170e652970c-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="display: inline;"><img alt="Knowledgenets" class="asset  asset-image at-xid-6a00d83451c75869e201b8d170e652970c img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d170e652970c-320wi" title="Knowledgenets" /></a></p>
+<p>What I really appreciate about this view is that its not security as a static topology, instead Garigue shows security working at different levels in a living, breathing system.</p>
+<p>Garigue compared Infosec to dentistry, you need a group that specializes and keeps up with the latest developments in the field. But you do not go to the dentist to brush your teeth. Way back in 2004, Garigue said that security teams should eschew running the firewall team, if you have a network, you have to have a firewall. The security team should have a policy and run tests, but setting firewall rules is the digital equivalent of teeth brushing.</p>
+<p><strong>The relationship of business and security</strong></p>
+<p>Garigue said security and business are not enemies. Security is a business enabler. Because we have brakes in a car, you can drive 60 mph on the highway and get home safely. Anyone who has been in an accident at 25 mph knows that that hurts, so without brakes we cannot even drive 25 safely, but with brakes we can move much faster and safer.</p>
+<p><strong>Information Security is fundamentally about integration</strong></p>
+<p>This one is my favorite</p>
+<p><a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201bb088af032970d-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="display: inline;"><img alt="Oxymoron" class="asset  asset-image at-xid-6a00d83451c75869e201bb088af032970d img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201bb088af032970d-320wi" title="Oxymoron" /></a></p>
+<p>Information is messy, unpredictable, and powerful. Security is an illusion that we can partition our system a priori into known secure and insecure states. The combination of these two opposing forces will always be a debate. Our job in security is to make sure its a constructive debate and not a destructive debate as it so often becomes.</p>
+<p><strong>Coping with risk</strong></p>
+<p>Garigue:</p>
+<blockquote>
+<p>&quot;<em>Knowledge of risky things is of strategic value</em></p>
+<p><em>How to know today tomorrow’s unknown ?</em></p>
+<p><em>How to structure information security processes in an organization so as to identify and address the NEXT categories of risks ?</em></p>
+<p><em>This is the mandate of Information Security</em>&quot;</p>
+<p>&#0160;</p>
+</blockquote>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">November 03, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/11/6-things-i-learned-from-robert-garigue.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/11/6-things-i-learned-from-robert-garigue.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201bb0886970b970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/the-curious-case-of-api-security.html">The Curious Case of API Security</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p><a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d16c94a4970c-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="float: left;"><img alt="Paget_holmes" class="asset  asset-image at-xid-6a00d83451c75869e201b8d16c94a4970c img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d16c94a4970c-120wi" style="margin: 0px 5px 5px 0px;" title="Paget_holmes" /></a>Join <a href="http://www.soatothecloud.com" target="_self">Mark O&#39;Neill</a> and I for a webinar this Tuesday. We have two actually, on EMEA and North American time. Register <a href="https://event.on24.com/wcc/r/1056426/D76882B20081E3AFC352ACA56C165A6D?partnerref=1raindrop" target="_self">here</a>. The webinar goes through the topics in my forthcoming whitepaper (<a href="https://www.axway.com/sites/default/files/resources/whitepapers/axway_collateral_api_top_11_threats_en.pdf">whitepaper is here</a>) The Curious Case of API Security.&#0160;</p>
+<p>In this project we channel the spirit of Father Brown, Hercule Poirot, and Sherlock Holmes. We approach the top security issues in APIs the same way a detective would. Our basic process is as follows: &#0160;</p>
+<ul>
+<li>Understand the context in which our APIs exist</li>
+<li>Look for clues of possible vulnerabilities</li>
+<li>Catalog what tools we use to identify and track vulnerabilities</li>
+<li>Identify countermeasures that we can use to close out vulnerabilities</li>
+<li>Provide evidence that can measure the efficacy of the countermeasures</li>
+</ul>
+<p>I will briefly summarize the top ten issues here, but join the <a href="https://event.on24.com/wcc/r/1056426/D76882B20081E3AFC352ACA56C165A6D?partnerref=1raindrop" target="_self">webinar</a> and read the paper for the full version. To help crystallize the issue, I included a representative Sherlock Holmes quote.</p>
+<p><strong>1. Unprotected APIs</strong></p>
+<p>Most enterprise cores are as soft and chewy as the center of a candy bar. That means that once inside an attacker has free reign. Therefore, the API layer is a table pounding, must have security priority.&#0160;</p>
+<p><strong>2. Weak Authentication</strong></p>
+<p><em>“There is nothing more&#0160;deceptive than an obvious fact”&#0160;</em>-Sherlock Holmes</p>
+<p>Just because your APIs have authentication, does not mean it will withstand scrutiny from an opponent. Its on security engineers to build stronger forms of authentication.</p>
+<p><strong>3. Brute Force</strong></p>
+<p>“<em>The world is full of obvious things which nobody by any chance ever observes</em>”&#0160;-Sherlock Holmes,&#0160;Hound of the Baskervilles</p>
+<p>APIs are particularly vulnerable here because they are always on. Yet most APIs lack basic scrutiny of the type and velocity of inbound requests. These are deemed uninteresting, but as Marcus Ranum says the number of times an uninteresting thing happens is interesting.</p>
+<p><strong>4. Injection</strong></p>
+<p><em>“I never guess. It is a shocking habit,&#0160;—destructive to the logical faculty</em>”&#0160;-Sherlock Holmes,&#0160;The Sign of Four</p>
+<p>Assuming they have access control, many APIs then simply guess that the input is ok and pass it along to the backend. Guessing that input is ok, may be habit forming and can destroy your backend systems integrity.</p>
+<p><strong>5. Lateral Movement</strong></p>
+<p>“<em>As a rule, the more bizarre a thing&#0160;is the less mysterious it proves to be.</em>”&#0160;-Sherlock Holmes,&#0160;The Red-Headed League</p>
+<p>Who would have guessed a priori that HVAC systems and payment systems would be linked? But a better question to ask may have been, what is in place to stop any linkage between the systems? Once an attacker gains an entry point what is to stop or even detect follow on actions?</p>
+<p><strong>6. Session Promiscuousness</strong></p>
+<p><em>&quot;I had,&quot; he said, &quot;come&#0160;to an&#0160;entirely erroneous conclusion,&#0160;my dear Watson, how dangerous&#0160;it always is to reason from&#0160;insufficient data&quot;</em>”&#0160;-Sherlock Holmes,&#0160;The Adventure of the&#0160;Speckled Band</p>
+<p>For Web apps, session cookies have all sorts of protections that engineers can use to try to provide a margin of safety around them. After all these cookies are used to mint and convey authority to use the system. For APIs though these basic protections against attacks like clickjacking, replay, and other impersonation vectors are usually missing.</p>
+<p><strong>7. Invisible Attacker</strong></p>
+<p>“<em>You know my method. It is&#0160;founded upon the observation&#0160;of trifles.</em>”&#0160;-Sherlock Holmes,&#0160;Boscombe Valley Mystery</p>
+<p>Securing APIs does not stop at access control, the API security layer must also try to detect malice. This means logging and monitoring activities to develop pattern recognition for friend from foe.</p>
+<p><strong>8. Broken TLS/SSL</strong></p>
+<p>“<em>Crime is common. Logic is rare.&#0160;Therefore, it is upon logic rather&#0160;than upon the crime that you&#0160;should dwell.</em>”&#0160;-Sherlock Holmes,&#0160;The Adventure of the&#0160;Copper Beeches</p>
+<p>While threats get all the attention, vulnerabilities and countermeasures are in fact where security engineers can be proactive. Threats are common, countermeasures are rare. We should spend our time on countermeasures. TLS/SSL has been taken for granted for a long time, but now its efficacy is challenged by BEAST, Poddle, et al. It goes to show how much engineering effort must be sustained to deliver even the basic protections we have today. For APIs, there is the additional burden of certificate management which is another long run area of struggle. If the level of attention paid to the talks at hacker cons was given to focused certificate management, we might wind up in a different place as an industry.</p>
+<p><strong>9. Inversion of Control</strong></p>
+<p>“<em>When you follow two separate&#0160;chains of thought, Watson, you&#0160;will find some point of intersection&#0160;which should approximate to&#0160;the truth</em>”&#0160;-Sherlock Holmes,&#0160;The Disappearance of Lady Carfax</p>
+<p>The big picture of API security must include the client. Unfortunately this is an area with few good practices. The server has the DMZ as a pattern, for all its warts, its a pattern that people know how to use and we have tools there. The client side is different, now it has data and whether mobile, cloud, or IOT client its doing stuff with it. How to protect it? How to deal with server pushes where the client comes becomes the server in effect by bi directional communication channels?</p>
+<p><strong>10. Order of Operations</strong></p>
+<p>“<em>The principle difficulty in your&#0160;case,” remarked Holmes in his&#0160;didactic fashion, “lay in the fact&#0160;of there being too much evidence.&#0160;&#0160;What was vital was overlaid and&#0160;hidden by what was irrelevant.&#0160;Of all the facts which were&#0160;presented to us we had to pick just&#0160;those which we deemed to be&#0160;essential, and then piece them&#0160;together in their order, so as to&#0160;reconstruct this very remarkable&#0160;chain of events</em>.”&#0160;-Sherlock Holmes,&#0160;The Naval Treaty</p>
+<p>APIs can appear to be a static set of getters and setters, but once they are built into other applications the combinations and permutations can drive unexpected behavior on the enterprise back end.&#0160;</p>
+<p><strong>11. Trusted !=Trustworthy</strong></p>
+<p><em>“Always approach a case with an&#0160;absolutely blank mind. It is always&#0160;an advantage. Form no theories,&#0160;just simply observe and draw&#0160;inferences from your observations.</em>”&#0160;-Sherlock Holmes,&#0160;The Adventure of the Cardboard Box</p>
+<p>The security architect’s most difficult opponent is probably not a malicious attacker. The security architect’s most difficult opponent is probably themselves.&#0160;Microsoft’s John Lambert says it well, “Defenders think in lists, attacker think in graphs. As long as that is true attackers win.” The security mindset is most effectively deployed as mistake avoidance, which means in practice not buying into silver bullets, but instead engineering capabilities margins of safety.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">October 25, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/10/the-curious-case-of-api-security.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/10/the-curious-case-of-api-security.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201bb08844b12970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-capability-engineering-.html">Security Capability Engineering </a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>One of the areas security can improve in view is to be less audit-centric (&quot;I am just going through the motions because auditors told me to do this and someone else is paying&quot;) and instead be more architecture centric. Architecture means understanding tradeoffs and making making choices on what to build.</p>
+<p>Because of the infosec industry&#39;s audit-heavy past, we have a lot of laundry lists of things to do. That&#39;s how auditors operate. Note, I am not against audit as a function its very valuable, we need checkpoints. But it should be a function, not the only or dominant function. Laundry lists do not shed light on priorities or dependencies or other engineering questions.</p>
+<p>Laundry lists tend to be static, they do not map to engineering processes or how to operationalize security. Gary McGraw, Sammy Migues, and Jacob West recently published <a href="https://www.bsimm.com" target="_self">BSIMM version 6</a>&#0160;which some of these critical gaps. BSIMM goes beyond the audit mindset and it highlights key activities and touchpoints that link the activities into a living, breathing organization. These are the activities that help you make security real.</p>
+<p>I see three areas where security engineering can be improved in many organizations and they all have their root in capability engineering. The three properties are efficacy, efficiency, and adaptability.</p>
+<p>First is efficacy. Its surprising, but most of the least secure systems in any enterprise are security systems themselves. Security people often say (rightly) that complexity is the enemy of security, but yet when we try to solve security problems we introduce things like Kerberos and X.509. There is nothing in your enterprise anywhere that is as complex as X.509 or Kerberos. Its simply taken for granted that if a system is purchased or built for security purposes add security. Security teams are very good at testing apps and systems for vulnerabilities. The same should be done for security mechanisms themselves. In fact, these security mechanisms should be more rigorously tested because they are a foundational element and they are usually reused. Efficacy can be measured in part using threat models.</p>
+<p>Making security efficient is challenge. Security teams should ensure that there is an ongoing effort to make security security capabilities - easy to use and cost effective. This has to do with drilling down on any barriers in security processes and optimizing scarce resources. As Fred Brooks <a href="https://www.wired.com/2010/07/ff_fred_brooks/" target="_self">said</a>:</p>
+<blockquote>
+<p>The critical thing about the design process is to identify your scarcest resource. Despite what you may think, that very often is not money. For example, in a NASA moon shot, money is abundant but lightness is scarce; every ounce of weight requires tons of material below. On the design of a beach vacation home, the limitation may be your ocean-front footage. You have to make sure your whole team understands what scarce resource you’re optimizing.</p>
+</blockquote>
+<p>The third property is adaptability. Having a capability is not the same as using it and deploying it widely. The width and breadth of adoption is an important metric to use. A significant percent of the security team&#39;s effort and resources should be devoted to making sure that the capabilities are drop dead simple to use in applications. The effort here is often on packaging and building interfaces that can offer security capabilities to a broad set of platforms and users.</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">October 20, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-capability-engineering-.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-capability-engineering-.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201bb087e53e7970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/ought-implies-can.html">Ought implies can</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Information security is a field filled with concepts that are <a href="https://1raindrop.typepad.com/1_raindrop/2015/04/security-fast-and-security-slow.html" target="_self">easy to say and very hard to do</a>. I have never read your security policy, but I bet that it contains the principle of least privilege. Conceptually, its pretty hard to argue with the principle of least privilege. After all, why would you ever provision a user or a function with more privileges than it needs? But while its easy to say, the only logical next question for an engineer is - ok, how do I deliver that?&#0160;</p>
+<p>Try this sometime, when you say &quot;principle of least privilege&quot; watch all the heads nodding and knowing looks. Of course, of course, yes that is what must be done. Then ask &quot;ok, how do we do that?&quot; Mostly what you get next is umms, ahhs, long pauses, people staring at their hands.</p>
+<p>People think security&#39;s biggest problem is attackers and that we need better defenses. That&#39;s probably true, but its been true for awhile and may take awhile longer. In the meantime, Infosec teams should consider how they can function better. I think the answers here are not coming from Silicon Valley whiz kids, they are more likely to found in Immanuel Kant:&#0160;</p>
+<p>&quot;The action to which the &quot;<em>ought</em>&quot; applies must indeed be possible under natural conditions.&quot;</p>
+<p>If our security policy says we &quot;ought&quot; to do something, principle of least privilege or strong auth or what have you, then its on the security architects and engineers to deliver capabilities that <span style="text-decoration: underline;">can</span> do exactly that.&#0160;</p>
+<p>There is a critical link missing in most Infosec programs, that link is reconciling the security <span style="text-decoration: underline;">policy</span> and architecture <span style="text-decoration: underline;">standards</span> to architecture and runtime <span style="text-decoration: underline;">capabilities</span>. Put simply if what is mentioned in policy and standards does not exist in your existing capabilities, either you need a project working to address or you should take it out of the policy and standards. Its wasting people&#39;s time.</p>
+<p>People are exhausted being on the other end of security assessments. I do not have a solution for that. Security does need to be more involved in arch, design, and testing. But the nature of our involvement should be dramatically scaled back and focused whenever and wherever possible. Do not drag teams through 37 different policy requirements when there is way that they can address it. Much better to invest resources and time (yours and theirs)&#0160;on capabilities that have a chance at seeing the light of day in production.&#0160;</p>
+<p>Then there is <a href="https://1raindrop.typepad.com/1_raindrop/2005/12/the_road_to_ass.html" target="_self">assurance</a>:</p>
+<p><a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d16446b2970c-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="display: inline;"><img alt="Cormac" class="asset  asset-image at-xid-6a00d83451c75869e201b8d16446b2970c img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b8d16446b2970c-320wi" title="Cormac" /></a></p>
+<p>&#0160;</p>
+<p><a href="http://www.johnkay.com/2015/10/07/beware-mathiness-the-use-of-algebra-and-data-to-reinforce-ideological-preconceptions" target="_self">Feynman integrity</a> dictates that its on the asserter to first try and disprove their ideas. Too often security is a dictate, but not one where security teams have done the engineering work to check the capability to deploy much less the efficacy of the recommendation.</p>
+<p>T.S. Eliot wrote &quot;in my beginning is my end&quot;, Infosec regimes often begin with a list of policy and standard thou shalts. Instead, the beginning point should be a sober review of the existing capabilities. First make sure you know what can you do with those capabilities, take advantage of them, and then go onto filling the gaps that lay between current state of play and desiderata.</p>
+<p><strong>&#0160;</strong></p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">October 07, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/10/ought-implies-can.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/10/ought-implies-can.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+	<div class="entry-category-security_140 entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201bb087d0011970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-140-chat-with-t-rob-wyatt-on-mq-and-middleware-security.html">Security > 140 Chat with T. Rob Wyatt on MQ and Middleware Security</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p><a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201bb087d00f1970d-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="float: left;"><img alt="Trob" class="asset  asset-image at-xid-6a00d83451c75869e201bb087d00f1970d img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201bb087d00f1970d-120wi" style="margin: 0px 5px 5px 0px; border: 1px solid #000000;" title="Trob" /></a></p>
+<p>Some security topics require more than a tweet, to that end today on Security &gt; 140 we we talk with T.Rob Wyatt (@tdotrob) who is an independent consultant specializing in security of the IBM MQ Messaging family of products. &#0160;He enjoys being a father and grandfather now and then. &#0160;In his spare time he does pretty much exactly the same things he does on the job, which is a windfall for his clients but somewhat distressing for his family who occasionally bust down his office door to stage an intervention. &#0160;He blogs about MQ security at <a href="https://t-rob.net/">https://t-rob.net</a> where you can also find links to his presentations and articles.</p>
+<p><span style="color: #407f00;">Gunnar:You’ve spent a lot of years on middleware security with things like MQ&#0160;Series. We always hear that security is supposed to be risk focused, but the&#0160;majority of security budgets go to things like network controls and&#0160;endpoints. These are some of the least valuable parts of the enterprise.&#0160;Meanwhile messaging systems like MQ literally run the most critical&#0160;transactions, the most critical data and applications. Yet these middleware&#0160;systems get short shrift, no way they even get 10% of the focus, budget and&#0160;effort of perimeters and endpoints, right? Why is that and how do you cope&#0160;with that?</span></p>
+<p>&#0160;T. Rob:&#0160;There are some concrete steps to cope with it that have been effective. &#0160;The &quot;why&quot; part is a bit speculative but I&#39;ll take a shot.</p>
+<p>People who work on Internet-facing servers, web admins, firewall admins, all the folks who deal with the perimeter, know all too well their technologies live in a hostile environment. Their public-facing servers are under constant attack and the technologies to deal with that are well known and mature. &#0160;When we decide the internal network is also hostile, applying the familiar controls is not difficult. &#0160;The delta in administrative overhead can be so small that in some cases it is easier to apply strong controls everywhere than to manage multiple sets of baseline configurations.</p>
+<p>But middleware administrators ran their networks wide open for many years while web technologies were maturing. &#0160;In the case of IBM MQ (formerly WebSphere MQ, formerly MQSeries) the product has had TLS connections for many years but only recently have users been implementing it in earnest. &#0160;With little demand and even less actual implementation, there was almost no feedback to IBM as to what worked well, what needed fixing, and what was missing.</p>
+<p>The perimeter admins can show logs and other evidence of constant threat. &#0160;Meanwhile, there have not been any publicly confirmed breaches of MQ. &#0160;We&#39;ve had confirmed interceptions of data in transit on the intranet but even so it is harder to convince anyone of the threat to middleware on the intranet than to the perimeter.</p>
+<p>The &quot;what do you do&quot; bit is a bit easier and more optimistic. &#0160;When I joined IBM in 2006 they were gracious enough to let me write articles and speak at conferences with a message that wasn&#39;t entirely flattering: MQ is delivered wide open by default, it&#39;s tough to lock down, and you (the users) aren&#39;t doing it right. &#0160;I also have written and delivered education sessions for auditors and PCI assessors to let them know just how vulnerable many of these middleware networks are and how to properly assess them. &#0160;</p>
+<p>I&#39;ve been beating that drum for almost 10 years now and it&#39;s moved the needle. &#0160;Enough MQ customers began enabling security that many of the latent potholes were mapped and repaired. &#0160;For example, I used to tell customers to stop making everyone an MQ admin and also to enable and monitor authorization events. &#0160;The first customer to actually do so immediately thought they were under attack when they started seeing tens of thousands of authorization errors a day. &#0160;It turned out that one MQ system queue could only be displayed by an admin. &#0160;When any low-privileged user asked MQ to enumerate the queue names - in other words they opened MQ Explorer to the Queues screen - it threw the auths error. &#0160;</p>
+<p>In a network with hundreds of users and MQ nodes that result is obvious in hindsight once you know how it works, but literally nobody had ever done that before. &#0160;Thankfully we seem to be well past that stage now and it is much more common when I go to a new client to see the network running TLS channels and the connections authenticated. &#0160;One of my conference presentations from MQTC last week reflects that progress. &#0160;It is called &quot;Beyond Intrusion Prevention&quot; and asks MQ admins to consider intrusion detection, mitigation, recovery, and forensic analysis. (<a href="http://t-rob.net/links">http://t-rob.net/links</a>)&#0160;</p>
+<p>Now that more customers are attempting to use MQ&#39;s security features for routine intranet links and IBM has lots of real-world feedback, momentum has been building. &#0160;The last three releases of MQ have featured major security enhancements, including that it is now shipped secure by default. &#0160;The MQ admin must explicitly provision *any* remote access, and a higher level of provisioning is required if that access is to be administrative. &#0160;As you noted, much of the world&#39;s critical infrastructure runs on MQ so this is a major win for, well, everyone.</p>
+<p><span style="color: #407f00;">GP:&#0160;A big challenge for organizations is something I call “its perfect or its&#0160;broken” mindset. If we think about the the externally facing DMZ, that&#0160;usually represents about the best that an organization can do in terms of&#0160;security. But many places have a hard time pivoting to what - “ok what does&#0160;my ‘internal’ security model look like?” In other words, if I cannot have&#0160;all the dials turned up to 11 like I do on the DMZ do I even have a security&#0160;model. As you say, it used to be a total after thought, but its started to&#0160;get better. I think one trap is to avoid that perfect or broken binary&#0160;mindset, I noted that one of the goals in some of your design patterns is&#0160;‘containing the blast radius’, can you describe that a bit and how it&#0160;applies to middleware specifically?</span></p>
+<p>&#0160;T. Rob:&#0160;I don&#39;t run into the perfect-or-broken mindset quite so much but again it may be because the middleware crowd haven&#39;t considered the intranet a hostile environment. &#0160;A client once said to me with a straight face &quot;It&#39;s the trusted internal network. That&#39;s why we call it that.&quot; &#0160;Normally I have the opposite problem and have to overcome a belief that security ramps up as a function of the amount of effort expended on it rather than as a function of having addressed a specific set of threats. Case in point - MQ networks today commonly have TLS configured on their channels but do not authenticate the certificates. If the customer uses the same CA that I do, sometimes I demo the problem by connecting to their MQ node using my own personal certificate. &#0160;Whoops.</p>
+<p>Because of this you may hear me from time to time telling audiences that having a little security is like being a little pregnant. &#0160;If people compared my advice with yours they might conclude we were saying opposite things. &#0160;I think we are actually nudging our respective communities toward the same goal, but working with communities of practice who come at the problem from very different starting points.</p>
+<p>The blast radius analogy is useful because it is memorable and perfect for the principle I use it to illustrate. &#0160;I included one slide showing instances where we use controlled explosions for specific useful purposes - nail gun, internal combustion engine, fireworks - and another slide with an X-ray of my own hand after an explosion took a finger off of it. &#0160;If we think of a breach as having a &quot;blast radius&quot; then enabling the controls already in the product that might contain the blast seems obvious.</p>
+<p>That slide deck makes the argument to the middleware community that perimeter security, which many shops have now spent some time on, is not the end of our journey. &#0160;I want to set the expectation that there&#39;s more work to be done so I ask the audience to consider blast containment and several other topics posed as questions.</p>
+<p>If your MQ network was breached what is the probability that:</p>
+<p>* The incident would be detected by the monitoring in place today?</p>
+<p>* The controls in place today would prevent the breach from compromising adjacent nodes?</p>
+<p>* There is an effective security incident plan in place and the key players are prepared to execute it?</p>
+<p>* The scope and impact of the breach could be reliably, accurately and quickly identified?</p>
+<p>* Affected business applications could be resumed quickly and safely?</p>
+<p>* You would have sufficient forensic data to perform post-breach analysis to successfully identify the source?</p>
+<p>Many shops now routinely use TLS to protect the MQ network from unauthorized connections but continue to allow administrative access from all adjacent legitimate nodes. Compromising one node on such a network grants administrative access to the entire network. &#0160;Configuring an MQ queue manager to refuse administrative commands from an adjacent node is quite easy to do and is an effective means of &quot;containing the blast radius.&quot; Rather than treat this as an afterthought, for which they need to spin up a project and perhaps get funding, I want MQ admins to consider it early and include it in their security baseline configuration for MQ. &#0160;</p>
+<p>I spend the most time in the presentation on breach mitigation because it is closely related to perimeter security MQ admins are familiar with and an area where we are likely to be able to make a lot of progress quickly. &#0160;But I also queue up several other security topics I hope will stay on the radar.</p>
+<p>Obviously, some of the questions I pose describe goals that would be challenging for administrators of any technology and I don&#39;t pretend we have mature solutions for them in MQ. My goal here is simply to get people thinking about how they might accomplish some of these goals and which of the existing controls might be used to do that. &#0160;Once we start that conversation as a community and start playing with the tools we have today we&#39;ll be able to see better where the gaps are and work with IBM to address them. &#0160;</p>
+<p>As an example, the more the community discussed archiving error logs over the years, the more functionality IBM provided. &#0160;We&#39;ve gone from patchy support for tuning log sizes to formally defined, consistent controls over the last few releases. &#0160;Enough people now use this functionality that there&#39;s demand for more fully realized log management. &#0160;At last week&#39;s conference IBM&#39;s product architect mentioned they are already working on more log enhancements for the next release. Momentum is great.</p>
+<p><span style="color: #407f00;">GP: &#0160;Middleware systems are in place because they need to bridge environments.&#0160;When you try to implement access control in them, you typically have to deal&#0160;with minimum 2-3 different security domains and credential types. This is&#0160;one factor that’s led people to punt to a lowest common denominator “Well&#0160;the mainframe supports 6 character password so I guess that’s what I’ll use&#0160;on the front end web server” kind of thing. What’s a good way to find the&#0160;highest common denominator for the service requesters and service&#0160;providers?</span></p>
+<p>&#0160;T. Rob:&#0160;Try to contain your laughter to a dull roar when I tell you that I have no freaking idea. &#0160;I have been working with IBM MQ and its family of related middleware products exclusively for twenty years. &#0160;Almost everything I know about security was learned in that context. &#0160;</p>
+<p>So what is that context? &#0160;The base product has no message hashing or integrity assurance features. &#0160;The message context, which includes a user ID and a few other fields, is used to pass identity around, but the thing consuming the message has to trust the provenance. &#0160;There&#39;s an add-on product called Advanced Message Security or AMS for short that provides signing and encryption of messages, but even this product doesn&#39;t provide assurance of identity carried in the message headers. &#0160;The identity assured by AMS is carried in the payload&#39;s AMS signature which has no relation whatsoever to the value of the ID in the message header.</p>
+<p>So you see, it isn&#39;t just MQ users who have concentrated on the perimeter. &#0160;The security model of the product itself is that of a hard crunchy perimeter with a soft gooey center - what I like to call the Catbox Crispy Security Model. &#0160;We trust the message headers because we have to, and we trust the perimeter security to keep the headers trustworthy. &#0160;If the assumption of the strong MQ perimeter is bad, then all bets are off. &#0160;That&#39;s the soft gooey center.</p>
+<p>From a pure MQ standpoint the community is very pleased with the progress in the product version-to-version. &#0160;It really does keep getting better, and new security features arrive generally at a pace faster than the MQ community is prepared to adopt. &#0160;Within our little island, MQ security is the best it&#39;s ever been and it&#39;s all very well received. &#0160;However from the outside looking in, and especially when someone who administers an Internet-facing technology is doing the looking, this all seems very rudimentary.</p>
+<p>It&#39;s not just MQ, by the way. &#0160;The JMS specification makes provision for identity fields but none for controls to assure the integrity of those fields. &#0160;There is no JMS-defined class of service, for example, that signs a message&#39;s headers. &#0160;From a middleware design standpoint, identity and policy are related to the connection and not the message. &#0160;There is some attempt to connect the two but not with assurance or auditability.</p>
+<p>There are of course several IBM middleware technologies. &#0160;MQ Extended Reach implements the MQTT protocol. &#0160;MQ Light implements AMQP. &#0160;WebSphere App Server has an all-Java implementation of JMS that interoperates with MQ. &#0160;Integration Bus is the Universal Translator of the bunch and can communicate in a huge number of protocols. &#0160;But there is no common identity or policy repository across these platforms. &#0160;If you want to propagate identity through the middleware, you will need to do it yourself and most likely do it in the message payload.</p>
+<p>To be fair, as of v8.0 which was released in June of last year, MQ will validate a user ID and password provided to it in a connection request, and can do that against the local operating system, LDAP or Active Directory. &#0160;If MQ authenticates against the same identity repository as, say, the web application server, then we at least have the same identity repository. &#0160;We still do not have assurance that the value in the message header identifies the entity who put the message, or that it hasn&#39;t been changed, and there is no formal mechanism for reliable identity propagation and no common repository for authorization and policy. &#0160;But ID and password validation is progress and I&#39;ll take it happily.</p>
+<p>All of which makes your question absurdly easy to answer in an MQ context, although perhaps not terribly comforting. &#0160;The highest common denominator for identity propagation is that the user&#39;s ID and password can be validated against Active Directory or LDAP. &#0160;Assuming that&#39;s where the Enterprise accounts are held, and that the perimeter security is sufficient to assure integrity of the ID in the message header end to end, then we have a winner. &#0160;</p>
+<p>Meanwhile, the highest common denominator for authorization policy is zero. &#0160;MQ access control entries are managed by MQ&#39;s Object Authority Manager. &#0160;These are not even common across an MQ network. &#0160;The administrator is obliged to define access control entries on a per-queue manager basis, even when those objects share a common namespace in the MQ cluster.</p>
+<p>As you can imagine, I stay quite busy trying to show my clients how to manage this at scale. &#0160;I suppose I could stop trying so hard to get new features implemented and just enjoy the work, but I&#39;m the one who has to explain all this and then I&#39;m the one who gets beat up over it. &#0160;The steady work is great but I&#39;d like it a lot more without the beatings.</p>
+<p><span style="color: #407f00;">GP: For the companies running TLS, do they usually have an internal CA setup,&#0160;or do they do those custom for the MQ project? Do you run into any&#0160;certificate lifecycle management challenges when you go operational?</span>&#0160;</p>
+<p>T. Rob: OK, now you are intentionally provoking me, right? &#0160;Cert management is the&#0160;biggest single issue in MQ-land that I see. &#0160;My recent conference&#0160;presentations are on certificate management in one way or another and I&#0160;wrote them as a response to this specific issue.</p>
+<p>The latest one is about the use of commercially signed certificates with MQ.&#0160;Most CAs have tutorials for a plethora of different types of servers but&#0160;nothing specifically about MQ. &#0160;Even an admin who manages certs for other&#0160;technologies won&#39;t find much useful guidance for MQ. &#0160;That little validation&#0160;step browsers do to check the URL against the CN and SAN? &#0160;MQ doesn&#39;t do&#0160;it. &#0160;So what *are* the requirements?</p>
+<p>My &quot;Managing CA Certs for MQ&quot; presentation explains the different types of&#0160;validation (any domain validated cert will do) and granularity options&#0160;(don&#39;t bother with wildcards or UCC for MQ). &#0160;At the end I also provide a&#0160;step-by-step implementation procedure to cut down drastically on setup&#0160;issues.</p>
+<p>The most popular presentation though is &quot;How To Build Your Own Certificate&#0160;Management Center of Mediocrity.&quot; &#0160;The title is a play on the too common&#0160;approach to security of implementing it gradually across the environment&#0160;rather than implementing comprehensive security models against smaller&#0160;subsets of the estate. &#0160;Rather than aspire to &quot;Center of Excellence&quot; level&#0160;of security management, there&#39;s an assumption that it can be ramped up&#0160;gradually, and that the effective level of security ramps up proportionally.</p>
+<p>Unfortunately, the level of effective security achieved doesn&#39;t ramp up&#0160;proportional to effort and for a variety of reasons. &#0160;Obviously, leaving out&#0160;critical controls is one issue, but &quot;anti-lock brake syndrome&quot; plays a big&#0160;part too. &#0160;When anti-lock brakes were first introduced they did not result&#0160;in the crash reduction that had been forecast because people who had them&#0160;felt safe enough to reduce their driving safety margins and engaged in&#0160;riskier behavior.</p>
+<p>Something similar can happen in shops after the MQ security implementation&#0160;is complete. &#0160;At that point it is assumed to be secure enough for any data,&#0160;including PII, PHI, PCI, etc. &#0160;But on inspection it is common to find&#0160;applications and users running with full admin rights, little or no&#0160;application isolation, the ability for legitimate users and apps to spoof&#0160;one another&#39;s IDs and even anonymous remote administration.</p>
+<p>A strong indicator of trouble is when that event is referred to as &quot;*the*&#0160;security implementation&quot; as in &quot;oh, we addressed that during the MQ security&#0160;project.&quot; &#0160;The wording reflects an understanding that this was a&#0160;once-and-done event. &#0160;</p>
+<p>&#0160;</p>
+<p>The How To Build Your Own Certificate Management Center of Mediocrity&#0160;presentation is basically a retelling of some of the worst horror stories.&#0160;The one I always tell is the large credit union where I asked whether they&#0160;use CA signed or self-signed certs. &#0160;The admin told me self-signed so I&#0160;started explaining how it works. &#0160;When he interrupted me to explain he&#0160;needed signing requests to send to their internal CA we paused while I&#0160;explained what self-signed means. &#0160;</p>
+<p>&#0160;</p>
+<p>When I asked how long it takes to turn around a signing request I was told&#0160;it just takes a few minutes but we&#39;d have to wait until &quot;the guy&quot; came back&#0160;from lunch. &#0160;</p>
+<p>&quot;The guy,&quot; I asked? &#0160;&quot;This is the internal CA that supplies ALL certificates&#0160;used by databases, app servers, backup jobs, Active Directory credentials,&#0160;and that the business is literally betting its continued existence on and it&#0160;all depends on one person?&quot;</p>
+<p>&quot;No, there are about 5 people who can run the internal CA. &#0160;But he has the&#0160;laptop with the root cert with him.&quot;</p>
+<p>&#0160;Great. No doubt it&#39;s in the food court at the mall right about now and logged onto the open Wi-Fi.&#0160;</p>
+<p>All my presentations are linked from the same index page, by the way:</p>
+<p><a href="https://t-rob.net/links/">https://t-rob.net/links/</a>&#0160;</p>
+<p>Over the years I&#39;ve pitched the idea of lightweight certificate management&#0160;to IBM, including during my stint as an MQ Product Manager, and to various&#0160;vendors in the MQ 3rd party ecosystem. &#0160;None have taken me up on it so now I&#0160;have a business partner writing the code, I&#39;m doing specification and design&#0160;and we are using Avada&#39;s IR-360 as the integration platform. &#0160;We do not&#0160;intend to provide a complete PKI, but we will manage the public certificates&#0160;centrally, manage the personal certs in situ, and provide expiry reports and&#0160;lifecycle management. &#0160;While we are at it we will go a bit outside the cert&#0160;management space and monitor MQ configuration settings using IR-360&#39;s native&#0160;MQ management and reporting capabilities.</p>
+<p>So, yeah, I run into a LOT of cert lifecycle management issues. &#0160;The tools&#0160;available are either Enterprise-grade PKI or stone knives and bear skins.&#0160;&#0160; In between is a barren wasteland right now but&#0160;I believe that with a decent product in that space we would see a lot more&#0160;MQ security deployed in the field. &#0160;My goal is to make bring the cost down&#0160;so low that people will secure the non-Prod environments.</p>
+<p><a class="asset-img-link" href="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b7c7d8f5a3970b-popup" onclick="window.open( this.href, &#39;_blank&#39;, &#39;width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0&#39; ); return false" style="display: inline;"><img alt="Mq" class="asset  asset-image at-xid-6a00d83451c75869e201b7c7d8f5a3970b img-responsive" src="https://1raindrop.typepad.com/.a/6a00d83451c75869e201b7c7d8f5a3970b-320wi" title="Mq" /></a></p>
+<p><span style="color: #407f00;">GP: You say your goal is to see security applied in non-Prod environments. &#0160;How do you see thins integrating into the Software Development Lifecycle?</span></p>
+<p>T. Rob:&#0160;Let me put it in perspective of how we develop business software applications today. &#0160;Typically the environments include some version of Development, Integration Test, User Acceptance Testing, QA, Performance Test, and eventually Production. &#0160;The idea is to systematically identify and resolve software defects through a well-defined process that minimizes risk of a variety of negative impacts. &#0160;Business application software is revenue producing and customer-facing so this rigorous and disciplined process is a no-brainer.</p>
+<p>Now consider how we approach the infrastructure management, monitoring and security tools. &#0160;There is no question that these are required in Production so we put them there. &#0160;But they are not revenue producing and not customer facing so the non-Production environments have less risk and we tend to deploy fewer tools the further we get from Prod. &#0160;Many shops deploy infrastructure and security tools only in Prod. &#0160;To the extent we do deploy into non-Prod, it tends to look like an extremely shallow inverted pyramid. &#0160;There are many consequences of this but there are two in particular with which I am concerned.</p>
+<p>The first of these, and we&#39;ve all seen it, is that the highly visible project deployment fails due to security errors. &#0160;Rather than back it out, we disable the security controls over which it is tripping and deploy. &#0160;There are many things we are willing to miss a deployment date over but security isn&#39;t one of them. &#0160;This is never more true than with the highly visible, mission-critical projects that ironically are the ones we really are betting the business on. &#0160;</p>
+<p>If we currently have no certificates in Dev then adding them reduces our risk, even if we automate the management and use self-signed certificates in that environment. &#0160;I believe that if the incremental cost of a single certificate at a single queue manager approached zero, it would be hard to argue for not using them. &#0160;I want security on in all environments, beginning with Dev.</p>
+<p>The second consequence of this Prod-down approach to security is a little more abstract but a lot more significant. &#0160;The infrastructure management and security tools are not revenue-producing applications, but they *are* applications. &#0160;Because they ensure the integrity and availability of the environments that run the business applications, they are just as critical as the most critical of the business applications. &#0160;So if the first time the MQ admin turns on TLS channels, CHLAUTH rules, cluster security, or granular authorization is in Production then there has been no opportunity to test these things beforehand. &#0160;</p>
+<p>The same business case that says we can&#39;t afford monitoring agents, certificates and granular authorization in non-Prod environments also guarantees that any defects with our implementation or configuration of these things occurs in the Prod environments, and they are not trivial to administer.</p>
+<p>The Prod-down strategy is a deliberate choice to bypass the rigor and discipline of the software development lifecycle and bear all the risk of infrastructure and security defects in the one environment where any defect is customer-facing, reputation-risking, cash hemorrhaging, and potentially business-ending. &#0160;</p>
+<p>Described in these terms and the average person wonders why security isn&#39;t turned on in all environments all the time. &#0160;It takes a special kind of logic to justify not doing so and when we write that logic down we call it a business case. &#0160;Without a revenue stream, there is nothing against which to offset infrastructure and security expenditures. &#0160;They are perceived almost entirely as &quot;stuff that reduces profit&quot; and deployed with great reluctance. &#0160;My goal of getting the incremental cost of a single cert on a single queue manager down to near zero is my attempt to address this problem head-on.</p>
+<p>&#0160;&quot;I want to move the risk of infrastructure and security defects out of the one environment where any defect is customer-facing, reputation-risking, cash hemorrhaging, and potentially business-ending.&quot;</p>
+<p>&#0160;&quot;We do that today? &#0160;Seriously? &#0160;Never mind. &#0160;What&#39;s that going to cost?&quot;</p>
+<p>&#0160;&quot;With the degree of automation I want to deploy, there&#39;s a year-over-year operational cost per certificate of bit more than zero.&quot;</p>
+<p>&#0160;&quot;I&#39;m sorry, how many zeros?&quot;</p>
+<p>&#0160;&quot;Just the one.&quot;</p>
+<p>&#0160;Hopefully that business case is a bit easier to make than what we do today. &#0160;Of course automation doesn&#39;t relieve anyone of the responsibilities of a competent security architect. &#0160;But if we offload the bulk of the grunt work to automation, that person is freed up to design and update the security model, manage the policies and validate that everything is working the way it should. &#0160;For example, if you need to update a signer certificate across a few thousand endpoints doing it by hand is time consuming, error prone, and expensive. &#0160;I propose not only to automate that, but to do so in Dev so the business case to deploy certificates there becomes a slam dunk.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">October 05, 2015 in <a href="https://1raindrop.typepad.com/1_raindrop/security-140/">Security > 140</a> </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-140-chat-with-t-rob-wyatt-on-mq-and-middleware-security.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/10/security-140-chat-with-t-rob-wyatt-on-mq-and-middleware-security.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201b7c7d7a460970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/privilege-user-management-bubble.html">Privilege User Management Bubble?</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>About five years back I might get one question every month or two on tacking privileged users. Nowadays, its more like one or two every week. I imagine that ten years ago or so the whole product space was about five guys in a garage in Israel. Why the change in uptake and urgency? This is not a new problem, its been a large scale problem for at least two decades. Why is it now top of the agenda? I assume that the CEO of CyberArk (who recently did an IPO) has a picture of Snowden above the bed that they bow to and thank each night.</p>
+<p>In 2011, CyberArk has $36M in revenue, in the last 12 months its $134M. That is serious growth for an area that was an IT Security backwater for its entire existence.</p>
+<p>The knock on effects are quite important for companies to understand. On the demand side, 5-10 years ago, the only companies that invested in Privileged user stuff were the usual suspects - large financials and the like. Nowadays, the demand is widespread, bog standard Fortune 500 companies who have a tiny fraction of the IT Security staff and budget are barreling down the Privileged user security path.</p>
+<p>That brings us to the first problem, the tools were originally developed for deep pocketed institutions with a small set of use cases. Now these tools are aiming to address general Fortune 500 writ large and purport to take on a whole new set of use cases. Can they? Technically, sure. In reality, maybe not.</p>
+<p>First problem is people. Sure we can see the revenue tripling in a short amount of time, but does anyone think there are 3x as many Privileged User pros in the market? Probably not. Five years back, the main complaint of Privileged User management systems was - they worked for a small set of use cases, but were expensive. It was rare to hear of failed deployment projects. Now they are being pushed into different kinds of companies, with smaller IT security teams, trying to handle a wider range of use cases, and we are starting to hear about failed deployments.</p>
+<p>So how should people tackle this? Its a longstanding problem, so I am very glad to see companies finally getting around to taking a run at solving privileged user security problems. And in fact the tools in teh space are quite capable with an important caveat. The caveat is, like Charlie Munger says &quot;you have to stay within your circle of competence. Its not a competency if you don&#39;t know the edge of it.&quot;&#0160;</p>
+<p>Too many companies look at privileged user management as a quick win. They pull up ye ol&#39; Magick Quadrant, pick the one that scores the best, and assume that in 2 months their decades of security holes - poof - vanish! Privileged user management is an important problem trying to address and there are good solutions out there, but this is not a quick win space. Its way more a three yards and cloud of dust, incremental win space.</p>
+<p>People to deliver are at premium. Internal ownership can be fuzzy - is it a security thing? An ops thing? an identity thing? Do you even have an identity team? Also who watches the watchers?</p>
+<p>Rolling it out is cumbersome. I recommend small chunks of use cases and platforms, probably one at a time. The users you are impacting are very busy and critical resources. There is the potential for emergent chaos due to the fact that many users have ids and passwords hard coded into shell scripts and configs. The Old Testament security folks will say &quot;well those deserve to break&quot;, maybe they do, but stepping into the void and taking unknown risks on critical systems is not a recipe to handle the Availability A of CIA.</p>
+<p>Misconfiguration is a problem, the tools have to speak all manner of arcane protocols. Plus the Privileged user tool itself is a major target. Its not clear that the end deployments are <a href="https://1raindrop.typepad.com/1_raindrop/2015/09/the-part-where-security-products-solve-the-problem.html" target="_self">as hardened</a> as they could be.&#0160;</p>
+<p>Some goals - first do not tackle all systems and use cases out of the gate. Be conservative in what you can tackle. Start with a basic jump host, then password management, then session monitoring, then strong auth. This is just an example, but the key point is each should be a mini project and not all attempted at once. Each project should be very tightly scoped and focused with detailed requirements, ownership and solid test cases.</p>
+<p>Its a long standing problem, but&#0160;proceed carefully so that you are reducing not&#0160;introducing (financial, infosec, or career) risk.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">October 02, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/10/privilege-user-management-bubble.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/10/privilege-user-management-bubble.html#comments">Comments (1)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201b7c7ceed49970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/09/the-part-where-security-products-solve-the-problem.html">The part where security products solve the problem</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>There is a burgeoning issue, a fatal flaw, in Infosec processes that has the potential to result in increased downside risk to companies, and that issue is found at the intersection of assumptions and security products.&#0160;</p>
+<p>Robin Roberts former head of R&amp;D at NSA said the &quot;the problem is you are dealing with systems that have all sorts of assumptions built in, but you cannot query the system about its assumptions, it does not know what they are.&quot;</p>
+<p>Andy Steingruebl and I tackled some of the security aspects here in &quot;<a href="http://www.thesecuritypractice.com/the_security_practice/papers/84-87.pdf" target="_self">Software Assumptions Lead to Preventable Errors</a>&quot; where we discuss making implicit assumptions explicit about expectations at Design Time and Run Time.&#0160;</p>
+<p>What happens in most Infosec teams is that there is basically this:</p>
+<p style="padding-left: 30px;">Compliance Spreadsheet -&gt; Security Product -&gt; Check Box</p>
+<p>That is fine as far as it goes, everyone needs to work to pass their audits and I get that you have to measure processes. But there is a fatal flaw here, the quality of the security product itself. Veracode&#39;s analysis showed that security products are more likely to have vulnerabilities than any other kind. Worse than travel apps, worse than HR.</p>
+<p>The fact that we are <a href="http://www.darkreading.com/risk/putting-out-fires-with-gasoline/d/d-id/1139415" target="_self">putting out fires with gasoline</a> does not get nearly the attention it deserves, it should be a top of mind issue. Its not just that these are vulns, we are marinating in vulns. Its that the vulns in a security product impact the very foundation of the security architecture.&#0160;</p>
+<p>Simply put, security products should be rigorously tested, more so than applications and systems. Why? Because its their job to defend them and they are frequently leveraged across applications. Leverage drives down cost but increases correlated downside risk.&#0160;</p>
+<p>Pretty much everyone does some code and host scanning. Basic security testing is table stakes for applications. In reality, not only do most organizations not scrutinize security products to the same degree as webapps, they do not even scan them at all!&#0160;</p>
+<p>This has huge knock on effects, because it attacks the security architecture itself. As Matt Bishop <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.138.5142&amp;rep=rep1&amp;type=pdf" target="_self">says</a>&#0160;&quot;The structure of security is built upon assumptions.&quot;&#0160;</p>
+<p>Instead of only finding holes in others&#39; code, &#0160;Security teams should work like Charles Darwin. Darwin had an average IQ, but he became a world changing scientist because he wore an intellectual hair shirt. He was always trying to disprove his own ideas. He rigorously challenged his own thinking.&#0160;</p>
+<p>How can we put such an idea into practice in Infosec? We focus so much time on Infosec problems, but Infosec has some strengths too. One of which is testing. Security teams can really excel at testing just as much as any other area of software engineering.</p>
+<p><a href="https://1raindrop.typepad.com/1_raindrop/2012/08/security-140-conversation-with-jason-chan.html" target="_self">Gauntlt and Security monkey tests</a> are a great way to verify each and every assumption in your standards. I used to say that if you do not have a readily available implementation to solve something then do not put it in a standard or policy. Now I say, if you do not have a readily available test to verify that it work, remove it as well.</p>
+<p>Take Poodle and Beast and the litany of TLS/SSL issues. Could infosec teams have predicted them all? I doubt it. But that is not a reason not to test the protocols themselves. &#0160;There are excellent freely available tools like <a href="https://github.com/iSECPartners/sslyze" target="_self">SSLyze</a> and <a href="https://www.ssllabs.com/ssltest/" target="_self">SSLLabs</a> to uncover these. Companies should have a test suite that checks for known issues - poor cert validation, hostname mismatch, and so on.</p>
+<p>This exact same approach should be done on across the security foundation. Does the RBAC work as expected? Do you have separation of duty test cases? Does strong auth work or can it be bypassed? &#0160;Does the logging and monitoring system actually recognize attacks? The way out is to extend <a href="https://1raindrop.typepad.com/1_raindrop/2005/12/the_road_to_ass.html" target="_self">assurance</a>&#0160;techniques to the security foundation. As Brian Snow said the worst position is not be insecure, its to think we are secure, act accordingly, when in fact we are not secure.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">September 16, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/09/the-part-where-security-products-solve-the-problem.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/09/the-part-where-security-products-solve-the-problem.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+	<div class="entry-author-gunnar_peterson entry-type-post entry" id="entry-6a00d83451c75869e201b7c7c0ffee970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://1raindrop.typepad.com/1_raindrop/2015/08/four-factors-to-give-you-a-fighting-chance.html">Four Often Overlooked Factors to Give Your Security Team a Fighting Chance</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Information Security is not a proposition where you come in on a Monday morning brimming with confidence that you have or will solve all the problems at hand. Its true that Infosec has a lot more visibility up and down the enterprise and we win a lot more arguments than we did in the past, even though 2015 feels like the year the <a href="https://1raindrop.typepad.com/1_raindrop/2015/02/the-year-the-security-dog-caught-the-car.html" target="_self">security dog caught the car</a> (my friend Carlos says that we did not so much catch the car as we are <a href="https://1raindrop.typepad.com/1_raindrop/2015/02/the-year-the-security-dog-caught-the-car.html?cid=6a00d83451c75869e201b8d0d3e88e970c#comment-6a00d83451c75869e201b8d0d3e88e970c" target="_self">strapped to the roof</a>), there is a lot of catch up to play. Like a decades worth.</p>
+<p>At the same time, its important to avoid the &quot;its perfect or its broken&quot; trap that derails so many security efforts. There&#39;ve been so many security decisions over the last decade, bets that have been made, that now have to be revisited in light of the current, shared understanding of the threat landscape. So our job in part is not only dealing with new threats, its also which of the older decisions do we now need to overturn, fix, and at what cost? Is it time to unflatten the network? Take a real run at AppSec assurance processes? Threat modeling?</p>
+<p>For example, Privileged user has been a problem in infosec for at least three decades, now post-Snowden people are scrambling to tool up. Five years back, you would see CyberArk deployed in financials for a tiny handful of high risk use cases. Now every company is not only try to deploy, but they are also attempting to scale privileged user management widely across their organizations. In the process they are dusting off use cases (and risks) that have been resident in the organization for a very long time. Now we have companies who have a tiny fraction of security budget and team trying to tackle complex use cases and deployment beyond which they have been pushed in the past.&#0160;</p>
+<p>Bottom line is that we&#39;re in a new world of Infosec, companies trying to push the envelope on what security tools can accomplish. Four factors play a role in navigating the new world in a practical way that yields forward progress - Decentralization, Testing as Input, Rational Budgeting, and Integration.</p>
+<p><span style="text-decoration: underline;"><em>Decentralization</em></span></p>
+<p>Governance can be used to mean many things. I like to keep things simple, I think of governance as who does what. Security is a chain of responsibility, so its critical to understand who is responsible to design the event message format, write the log sensors, integrate the log sensors, test the log sensors, manage the repository, write the reports, tune the log sensors, operate the log system, and respond to the events. Even for something seemingly simple like logging there&#39;s a wide range of activities to wrangle into a cohesive structure. Its a lot more than &quot;who owns SIEM?&quot;</p>
+<p><a href="https://1raindrop.typepad.com/1_raindrop/2013/08/revisiting-garigues-cso-role-models.html" target="_self">Decentralization</a> is a major factor going forward. We have been trying to raise awareness for so many years in this business that now that we actually have some executive mindshare, the knee jerk reaction is to build the security department of your dreams and centralize everything. Problem is that centralization doesn&#39;t scale, and in terms of cleaning up the years of previous infosec decisions scale is a major factor.</p>
+<p>Effective decentralization is not abdication or giving people enough rope to hang themselves. Instead its about clear technical guidance, specific <a href="https://www.youtube.com/watch?v=-kbvDw9Jy0g" target="_self">security checklists</a> for mistake avoidance, training, and tuning testing to close the process loop. Don&#39;t try to do too much, do less and help others do it better.</p>
+<p><span style="text-decoration: underline;"><em>Testing as Input - Design Like an Attacker</em></span></p>
+<p>John Lambert wisely counseled that defenders think in lists and attackers think in graphs, as long as those happen the attacker wins. If you think about the DMZ, its sort of the one area of the enterprise that security was allowed to design. The normal rules don&#39;t apply to the DMZ, at the same time pretty much nothing functional gets deployed there. You would think that would give security architects pause, but mostly it hasn&#39;t.</p>
+<p>A normal defender has a list of say 15 things they do security-wise in the DMZ, firewall, WAF, IPS, bla bla, &#0160;and if you ask them their goal for the next year they say well I want to 17 or 18 things in the DMZ. Now think about getting to the chewy center from an attacker point of view. All that time and money to go from 15 to 18 capabilities in the DMZ, the defender list gets longer. What about the attacker? One hop to the DMZ plus one hop to the chewy center. Its still a two hop graph</p>
+<p>One problem in the defender list analysis is the input is the defender&#39;s mental model of the system, the distilled essence of the whiteboards, Visios, power points, repositories, and such. Instead the input should be based on scans, tests, and an attacker graph based view of the system. This is not about having your opponent determine your security goals, but it is about having the available attack vectors determine the security focus.</p>
+<p><span style="text-decoration: underline;"><em>Rational Budgeting</em></span></p>
+<p>Simply put, the while the numbers have gotten larger the relative percentage allocation of security budgets are mostly stuck in a network security era. The main threats have to do with data, identity and applications, yet the majority of spend still goes to infrastructure security. Infrastructure security obviously matters, but it does not trump the value of assets like data, identity and application functionality. Many of the long standing problems in the security are in these layers, how long have we tried to get rid of passwords or strengthen authentication, or share identity in a secure way, or have a fine grained access control system or even just classify data? Tackling problems like these (and they won&#39;t just go away on their own) requires more oomph.</p>
+<p><span style="text-decoration: underline;"><em>Integration</em></span></p>
+<p>We do not have security problems for the most part. We can look at an asset, look at the threats and vulnerabilities and figure out the countermeasure(s). Where we really struggle is - how in the world to integrate the countermeasure? Will we break the app? Will the CSRF nonce break the stateless model of the app? Will we break the user experience?</p>
+<p>On top of that the security countermeasures themselves do not play all that well together. Strong auth is an island unto itself, so is regular auth, so is VPN, so is authorization (Well actually that&#39;s embedded in the spaghetti code), so are roles, so is logging. Security capabilities have to do way better at first mile (user) and last mile (resource) integration and we have to improve how the security capabilities integrate with each other, otherwise we don&#39;t get the scale and coverage.&#0160;</p>
+<p>These four factors are not a complete set of things sufficient to win, but they are frequently overlooked factors that should be present to make an effective security team with a fighting chance to compete with the challenges that systems face.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">August 18, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://1raindrop.typepad.com/1_raindrop/2015/08/four-factors-to-give-you-a-fighting-chance.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://1raindrop.typepad.com/1_raindrop/2015/08/four-factors-to-give-you-a-fighting-chance.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+
+
+			<!-- post footer links -->
+
+		</div>
+	</div>
+      </div>
+
+			<div class="pager-bottom pager-entries pager content-nav">
+		<div class="pager-inner">
+			
+			
+			<span class="pager-right">
+				<a href="https://1raindrop.typepad.com/1_raindrop/page/2/"><span class="pager-label"></span>
+					<span class="chevron">&#187;</span></a>
+			</span>
+		</div>
+	</div>
+	
+	
+
+        
+
+
+
+						</div>
+					</div>
+					<div id="gamma">
+						<div id="gamma-inner" class="pkg">
+							<!-- sidebar2 -->
+
+
+<!-- user photo -->
+    <div class="module-photo module">
+
+
+     
+
+
+<div class="module-content">
+
+
+<img src="https://1raindrop.typepad.com/.a/6a00d83451c75869e2010536f1f541970b-150wi" alt="My Photo" class="img-responsive" />
+
+
+</div></div>
+
+<!-- list_inlcude.tt  -->
+<div id="sos_service_oriented_security" class="module-typelist module">
+<h2 class="module-header">SOS: Service Oriented Security</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="https://1raindrop.typepad.com/1_raindrop/2015/10/the-curious-case-of-api-security.html">The Curious Case of API Security</a></li>
+							<li class="module-list-item"><a title="" href="http://www.axiomatics.com/resources/case-studies-white-papers/84-getting-the-owasp-top-ten-right-with-dynamic-authorization.html" >Getting OWASP Top Ten Right with Dynamic Authorization</a></li>
+							<li class="module-list-item"><a title="" href="http://www.axway.com/en/gate/1390" >Top 10 API Security Considerations</a></li>
+							<li class="module-list-item"><a title="" href="https://mobappsectriathlon.blogspot.com/">Mobile AppSec Triathlon</a></li>
+							<li class="module-list-item"><a title="" href="https://1raindrop.typepad.com/1_raindrop/2014/03/measure-your-margin-of-safety.html">Measure Your Margin of Safety</a></li>
+							<li class="module-list-item"><a title="" href="https://1raindrop.typepad.com/1_raindrop/2013/10/top-10-security-considerations-for-internet-of-things.html">Top 10 Security Considerations for Internet of Things</a></li>
+							<li class="module-list-item"><a title="" href="https://www.youtube.com/watch?v=-kbvDw9Jy0g">Security Checklists</a></li>
+							<li class="module-list-item"><a title="" href="http://archive.hpcwire.com/hpccloud/2010-11-09/cloud_security_the_federated_identity_factor.html" >Cloud Security: The Federated Identity Factor</a></li>
+							<li class="module-list-item"><a title="" href="http://www.darkreading.com/author-bio.asp?author_id=1205" >Dark Reading IAM</a></li>
+							<li class="module-list-item"><a title="" href="https://securosis.com/research/publication/api-gateways-where-security-enables-innovation" >API Gateway Secuirty</a></li>
+							<li class="module-list-item"><a title="" href="http://arctecgroup.net/pdf/monitoring.pdf" >Directions in Incident Detection and Response</a></li>
+							<li class="module-list-item"><a title="" href="https://1raindrop.typepad.com/1_raindrop/security-140/">Security > 140</a></li>
+							<li class="module-list-item"><a title="" href="https://1raindrop.typepad.com/1_raindrop/2011/06/open-group-enterprise-security-architecture.html">Open Group Security Architecture</a></li>
+							<li class="module-list-item"><a title="" href="https://1raindrop.typepad.com/1_raindrop/2010/12/reference-monitor-for-the-internet-of-things.html">Reference Monitor for the Internet of Things</a></li>
+							<li class="module-list-item"><a title="" href="http://arctecgroup.net/pdf/donttrustandverify.pdf" >Don't Trust. And Verify.</a></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="https://1raindrop.typepad.com/1_raindrop/archives.html">Archives</a></h2>
+		<div class="module-content">
+												<ul class="module-list">
+				
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/11/index.html">November 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/10/index.html">October 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/09/index.html">September 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/08/index.html">August 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/07/index.html">July 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/06/index.html">June 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/05/index.html">May 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/04/index.html">April 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/03/index.html">March 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://1raindrop.typepad.com/1_raindrop/2015/02/index.html">February 2015</a></li>
+									</ul>
+									<p class="module-more"><a href="https://1raindrop.typepad.com/1_raindrop/archives.html">More...</a></p>
+				
+				
+			
+		</div>
+	</div>
+
+<div class="module-syndicate module">
+	<div class="module-content">
+	<a href="https://1raindrop.typepad.com/1_raindrop/atom.xml"><i class="fas fa-rss"></i> Subscribe to this blog's feed</a>
+	</div>
+</div>
+<div class="module-email module">
+	<div class="module-content">
+		<script type="text/javascript">
+<!--
+document.write('<a href="ma' + 'ilto:&#103;&#117;&#110;&#110;&#97;&#114;&#64;&#97;&#114;&#99;&#116;&#101;&#99;&#103;&#114;&#111;&#117;&#112;&#46;&#110;&#101;&#116;">Email Me</a>');
+// -->
+</script>
+
+	</div>
+</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+
+
+		</div>
+	</div>
+	
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="https://www.typepad.com/t/stats?blog_id=108628&amp;user_id=281021&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+
+
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+<!-- ph=1 -->
